@@ -8,15 +8,20 @@ RoomSync is a React Native application built with Expo for managing shared livin
 
 ## Screenshots
 
-*(Screenshots to be added)*
+### Onboarding
+| Spash Screen | Welcome |
+|:---:|:---:|
+| <img src="docs/screenshots/splash.png" width="200" alt="Splash Screen" /> | <img src="docs/screenshots/welcome.png" width="200" alt="Welcome Screen" /> |
 
+### App Interface
 | Home Dashboard | Chores List | Bills Overview |
 |:---:|:---:|:---:|
-| <img src="docs/screenshots/placeholder.png" width="200" alt="Home Screen" /> | <img src="docs/screenshots/placeholder.png" width="200" alt="Chores Screen" /> | <img src="docs/screenshots/placeholder.png" width="200" alt="Bills Screen" /> |
+| <img src="docs/screenshots/home.png" width="200" alt="Home Screen" /> | <img src="docs/screenshots/chores.png" width="200" alt="Chores Screen" /> | <img src="docs/screenshots/bills.png" width="200" alt="Bills Screen" /> |
 
+### Coming Soon
 | Announcement Feed | House Settings | Profile |
 |:---:|:---:|:---:|
-| <img src="docs/screenshots/placeholder.png" width="200" alt="Announcements" /> | <img src="docs/screenshots/placeholder.png" width="200" alt="Settings" /> | <img src="docs/screenshots/placeholder.png" width="200" alt="Profile" /> |
+| *(Image coming soon)* | *(Image coming soon)* | *(Image coming soon)* |
 
 ## Features
 - **House Management**: create or join houses via invite codes.
