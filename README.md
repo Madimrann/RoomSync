@@ -1,50 +1,57 @@
-# Welcome to your Expo app 👋
+# RoomSync
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+RoomSync is a React Native application built with Expo for managing shared living spaces, including chore tracking, bill splitting, and house announcements.
 
-## Get started
+> [!NOTE]
+> **Status: Development**
+> This project is currently in active development.
 
-1. Install dependencies
+## Screenshots
 
-   ```bash
-   npm install
-   ```
+*(Screenshots to be added)*
 
-2. Start the app
+| Home Dashboard | Chores List | Bills Overview |
+|:---:|:---:|:---:|
+| <img src="docs/screenshots/placeholder.png" width="200" alt="Home Screen" /> | <img src="docs/screenshots/placeholder.png" width="200" alt="Chores Screen" /> | <img src="docs/screenshots/placeholder.png" width="200" alt="Bills Screen" /> |
 
-   ```bash
-   npx expo start
-   ```
+| Announcement Feed | House Settings | Profile |
+|:---:|:---:|:---:|
+| <img src="docs/screenshots/placeholder.png" width="200" alt="Announcements" /> | <img src="docs/screenshots/placeholder.png" width="200" alt="Settings" /> | <img src="docs/screenshots/placeholder.png" width="200" alt="Profile" /> |
 
-In the output, you'll find options to open the app in a
+## Features
+- **House Management**: create or join houses via invite codes.
+- **Chore Tracking**: Assign chores, set due dates, and track completion.
+- **Bill Splitting**: Split bills equally or by custom amounts and track payments.
+- **Announcements**: Post house updates with pinning and comments.
+- **Member Profiles**: View housemates and their activity history.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Getting Started
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### Prerequisites
+- Node.js
+- npm or yarn
 
-## Get a fresh project
-
-When you're ready, run:
+### Installation
 
 ```bash
-npm run reset-project
+npm install
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## Running the App
 
-## Learn more
+### Mobile (iOS/Android)
 
-To learn more about developing your project with Expo, look at the following resources:
+Start the Metro Bundler:
+```bash
+npx expo start
+```
+- Press `a` to open on Android Emulator/Device
+- Press `i` to open on iOS Simulator (Mac only)
+- Scan QR code with **Expo Go** app to run on physical device
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## Project Structure
+- `src/screens/`: Application screens (Auth, Home, Chores, Bills, etc.)
+- `src/components/`: Reusable UI components (Buttons, Cards, Inputs)
+- `src/navigation/`: Navigation configuration (Tab & Stack navigators)
+- `src/context/`: Global state management (AuthContext)
+- `src/theme/`: Design system tokens (Colors, Typography, Layout)
