@@ -19,9 +19,9 @@ RoomSync is a React Native application built with Expo for managing shared livin
 | <img src="docs/screenshots/home.png" width="200" alt="Home Screen" /> | <img src="docs/screenshots/chores.png" width="200" alt="Chores Screen" /> | <img src="docs/screenshots/bills.png" width="200" alt="Bills Screen" /> |
 
 ### Coming Soon
-| Announcement Feed | House Settings | Profile |
-|:---:|:---:|:---:|
-| *(Image coming soon)* | *(Image coming soon)* | *(Image coming soon)* |
+| Announcement Feed | More Menu |
+|:---:|:---:|
+| <img src="docs/screenshots/announcements.png" width="200" alt="Announcements" /> | <img src="docs/screenshots/more.png" width="200" alt="More Menu" /> |
 
 ## Features
 - **House Management**: create or join houses via invite codes.
