@@ -3,8 +3,9 @@
 RoomSync is a React Native application built with Expo for managing shared living spaces, including chore tracking, bill splitting, and house announcements.
 
 > [!NOTE]
-> **Status: Development**
-> This project is currently in active development.
+> [!NOTE]
+> **Status: Personal Project**
+> This is a personal project created for experimentation and learning.
 
 ## Screenshots
 
