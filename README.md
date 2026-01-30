@@ -1,63 +1,77 @@
-# RoomSync
+# RoomSync 🏠
 
-RoomSync is a React Native application built with Expo for managing shared living spaces, including chore tracking, bill splitting, and house announcements.
-
-> [!NOTE]
 > [!NOTE]
 > **Status: Personal Project**
 > This is a personal project created for experimentation and learning.
 
-## Screenshots
+RoomSync is a mobile application designed to simplify shared living by providing a centralized platform for roommates to manage chores, split bills, and communicate effectively. Built with **React Native** and **Expo**, it aims to foster transparency and harmony in shared households.
 
-### Onboarding
-| Spash Screen | Welcome |
-|:---:|:---:|
-| <img src="docs/screenshots/splash.png" width="200" alt="Splash Screen" /> | <img src="docs/screenshots/welcome.png" width="200" alt="Welcome Screen" /> |
+## 🚀 Overview
 
-### App Interface
-| Home Dashboard | Chores List | Bills Overview |
-|:---:|:---:|:---:|
-| <img src="docs/screenshots/home.png" width="200" alt="Home Screen" /> | <img src="docs/screenshots/chores.png" width="200" alt="Chores Screen" /> | <img src="docs/screenshots/bills.png" width="200" alt="Bills Screen" /> |
+This is a **personal project** exploring modern mobile development patterns, focusing on:
+- **Community-First Design**: A UI centered around the "House" concept.
+- **Task Management**: Flexible chore assignment and tracking.
+- **Financial Clarity**: Transparent bill splitting and payment status tracking.
 
-### Communication & Settings
-| Announcement Feed | More Menu |
-|:---:|:---:|
-| <img src="docs/screenshots/announcements.png" width="200" alt="Announcements" /> | <img src="docs/screenshots/more.png" width="200" alt="More Menu" /> |
+## ✨ Key Features
 
-## Features
-- **House Management**: create or join houses via invite codes.
-- **Chore Tracking**: Assign chores, set due dates, and track completion.
-- **Bill Splitting**: Split bills equally or by custom amounts and track payments.
-- **Announcements**: Post house updates with pinning and comments.
-- **Member Profiles**: View housemates and their activity history.
+- **House Hub**: Easily create or join houses using unique 6-digit invite codes.
+- **Smart Chores**: Create chores with priority levels (Low, Medium, High), due dates, and assignees.
+- **Bill Splitter**: Log shared expenses (Rent, Utilities) and automatically calculate individual shares.
+- **Announcements Feed**: Pin important updates (e.g., "Landlord visiting") and discuss via comments.
+- **Design System**: A custom-built UI library including `AppCard`, `AppButton`, and `StatusChip` for a consistent premium look.
 
-## Getting Started
+## 📱 System Workflow
 
-### Prerequisites
-- Node.js
-- npm or yarn
+The RoomSync system establishes a digital "House" for roommates to collaborate:
 
-### Installation
+1.  **House Initialization**: A user creates a House (e.g., "The Chill Pad") and generates an Invite Code.
+2.  **Team Assembly**: Roommates join via the code and set up their profiles.
+3.  **Responsibility Distribution**:
+    - **Chores**: Assigned to specific members with due dates.
+    - **Bills**: Added by a payer, with costs split among selected members.
+4.  **Tracking & Settlement**:
+    - Members mark chores as "Done".
+    - Members mark their bill shares as "Paid".
+5.  **House Pulse**: The dashboard updates in real-time to show the number of completed chores and outstanding bills.
 
-```bash
-npm install
-```
+## 🛠️ Tech Stack
 
-## Running the App
+- **Framework**: React Native (Expo)
+- **Language**: TypeScript
+- **Navigation**: React Navigation (Native Stack + Bottom Tabs)
+- **Styling**: Custom Design System (StyleSheet + Theme Tokens)
+- **Icons**: Lucide React Native
 
-### Mobile (iOS/Android)
+## 📸 Screenshots
 
-Start the Metro Bundler:
-```bash
-npx expo start
-```
-- Press `a` to open on Android Emulator/Device
-- Press `i` to open on iOS Simulator (Mac only)
-- Scan QR code with **Expo Go** app to run on physical device
+<div style="display: flex; gap: 10px; overflow-x: auto; padding-bottom: 20px;">
+  <img src="docs/screenshots/welcome.png" alt="Welcome" width="200" />
+  <img src="docs/screenshots/home.png" alt="Home Dashboard" width="200" />
+  <img src="docs/screenshots/chores.png" alt="Chores List" width="200" />
+  <img src="docs/screenshots/bills.png" alt="Bills Overview" width="200" />
+  <img src="docs/screenshots/announcements.png" alt="Announcements" width="200" />
+  <img src="docs/screenshots/more.png" alt="More Menu" width="200" />
+</div>
 
-## Project Structure
-- `src/screens/`: Application screens (Auth, Home, Chores, Bills, etc.)
-- `src/components/`: Reusable UI components (Buttons, Cards, Inputs)
-- `src/navigation/`: Navigation configuration (Tab & Stack navigators)
-- `src/context/`: Global state management (AuthContext)
-- `src/theme/`: Design system tokens (Colors, Typography, Layout)
+## 🏁 Getting Started
+
+1.  **Clone the repository**
+    ```bash
+    git clone https://github.com/Madimrann/RoomSync.git
+    cd RoomSync
+    ```
+
+2.  **Install dependencies**
+    ```bash
+    npm install
+    ```
+
+3.  **Run the app**
+    ```bash
+    npx expo start
+    ```
+
+## 📝 License
+
+This project is for educational and portfolio purposes.
